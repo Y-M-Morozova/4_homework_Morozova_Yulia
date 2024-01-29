@@ -32,7 +32,16 @@
   ![2_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/eeeb0883-5400-453e-bc31-af8f96c0270e)
 
 
-создайте новую базу данных testdb
+>**3. создайте новую базу данных testdb**
+
+Создаю новую БД ``testdb`` командой: 
+```sql 
+    CREATE DATABASE testdb;
+```
+
+  ![3_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/f64ca04a-c94b-425a-9a7a-5ffbdcd56cde)
+
+
 зайдите в созданную базу данных под пользователем postgres
 создайте новую схему testnm
 создайте новую таблицу t1 с одной колонкой c1 типа integer
