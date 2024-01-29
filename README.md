@@ -90,10 +90,42 @@ cогласно заданию, создаю новый кластер PostgresS
 
   ![7_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/80fe70b4-9a81-4f3b-b2b5-1fb4726635c7)
 
+<br/> 
 
-создайте новую роль readonly
-дайте новой роли право на подключение к базе данных testdb
-дайте новой роли право на использование схемы testnm
+>**8. создайте новую роль readonly**
+
+создаю роль командой:
+
+```sql
+  create role readonly;
+```
+
+  ![8_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/9672f6d7-24a3-4660-8236-d8396bdcc568)
+
+<br/>
+
+>**9. дайте новой роли право на подключение к базе данных testdb**
+
+для этого выполняю команду:
+
+```sql
+  grant connect on database testdb to readonly;
+```
+
+  ![9_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/4959f081-e84b-48f5-a441-0d535e255e40)
+
+>**10. дайте новой роли право на использование схемы testnm**
+
+для этого выполняю команду:
+
+```sql
+  grant usage on schema testnm to readonly;
+```
+
+  ![10_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/e0541132-d453-4a95-b867-7d81a9bed83a)
+
+  
+
 дайте новой роли право на select для всех таблиц схемы testnm
 создайте пользователя testread с паролем test123
 дайте роль readonly пользователю testread
