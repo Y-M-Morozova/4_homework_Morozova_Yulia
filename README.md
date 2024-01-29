@@ -20,6 +20,9 @@
 
 ``sudo apt install postgresql-14``
 
+логинюсь пользователем postgres ``sudo su postgres`` и проверяю кластеры командой ``pg_lsclusters`` , все ок: порт 5432 версия 15я, а на порту 5433 - версия PostgresSQL 14:
+
+  ![1_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/15fcb9ff-6c9e-4ea0-a278-2a489fdcebf9)
 
 
 зайдите в созданный кластер под пользователем postgres
