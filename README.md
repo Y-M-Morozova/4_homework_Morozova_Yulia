@@ -25,7 +25,9 @@
   ![1_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/15fcb9ff-6c9e-4ea0-a278-2a489fdcebf9)
 
 
-зайдите в созданный кластер под пользователем postgres
+**2. зайдите в созданный кластер под пользователем postgres**
+
+
 создайте новую базу данных testdb
 зайдите в созданную базу данных под пользователем postgres
 создайте новую схему testnm
