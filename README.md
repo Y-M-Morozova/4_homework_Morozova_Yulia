@@ -41,8 +41,12 @@
 
   ![3_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/f64ca04a-c94b-425a-9a7a-5ffbdcd56cde)
 
+>**4. зайдите в созданную базу данных под пользователем postgres**
 
-зайдите в созданную базу данных под пользователем postgres
+подключаюсь к БД ``testdb`` как ``postgres``:
+
+  ![4_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/eeabe3dc-a746-49ac-81a6-dde4f0bb80d4)
+
 создайте новую схему testnm
 создайте новую таблицу t1 с одной колонкой c1 типа integer
 вставьте строку со значением c1=1
