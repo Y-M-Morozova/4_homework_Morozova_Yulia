@@ -23,6 +23,7 @@ cогласно заданию, создаю новый кластер PostgresS
 
   ![1_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/15fcb9ff-6c9e-4ea0-a278-2a489fdcebf9)
 
+<br/>
 
 >**2. зайдите в созданный кластер под пользователем postgres**
 
@@ -30,6 +31,7 @@ cогласно заданию, создаю новый кластер PostgresS
 
   ![2_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/eeeb0883-5400-453e-bc31-af8f96c0270e)
 
+<br/>
 
 >**3. создайте новую базу данных testdb**
 
@@ -40,11 +42,15 @@ cогласно заданию, создаю новый кластер PostgresS
 
   ![3_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/f64ca04a-c94b-425a-9a7a-5ffbdcd56cde)
 
+  <br/>
+
 >**4. зайдите в созданную базу данных под пользователем postgres**
 
 подключаюсь к БД ``testdb`` как ``postgres``:
 
   ![4_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/eeabe3dc-a746-49ac-81a6-dde4f0bb80d4)
+
+  <br/>
 
 >**5. создайте новую схему testnm**
 
@@ -57,7 +63,7 @@ cогласно заданию, создаю новый кластер PostgresS
 
   ![5_11](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/21c29dd5-bc3f-4b1c-b31a-8003842495bb)
 
-
+<br/>
   
 >**6. создайте новую таблицу t1 с одной колонкой c1 типа integer**
 
