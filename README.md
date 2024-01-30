@@ -174,7 +174,9 @@ cогласно заданию, создаю новый кластер PostgresS
 
 <br/>
 
->**сделайте select * from t1;**
+>**15. сделайте select * from t1;**
+
+выполняю:
 
   ![15_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/81580532-2800-41d9-afad-21b3a0e8d15e)
 
