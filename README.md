@@ -124,9 +124,14 @@ cогласно заданию, создаю новый кластер PostgresS
 
   ![10_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/e0541132-d453-4a95-b867-7d81a9bed83a)
 
-  
+>**11. дайте новой роли право на select для всех таблиц схемы testnm**
 
-дайте новой роли право на select для всех таблиц схемы testnm
+выполняю командой:
+
+```sql
+  grant select on all tables in schema testnm to readonly;
+```
+
 создайте пользователя testread с паролем test123
 дайте роль readonly пользователю testread
 зайдите под пользователем testread в базу данных testdb
