@@ -114,6 +114,8 @@ cогласно заданию, создаю новый кластер PostgresS
 
   ![9_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/4959f081-e84b-48f5-a441-0d535e255e40)
 
+<br/>
+
 >**10. дайте новой роли право на использование схемы testnm**
 
 для этого выполняю команду:
@@ -122,7 +124,11 @@ cогласно заданию, создаю новый кластер PostgresS
   grant usage on schema testnm to readonly;
 ```
 
+<br/>
+
   ![10_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/e0541132-d453-4a95-b867-7d81a9bed83a)
+
+<br/>
 
 >**11. дайте новой роли право на select для всех таблиц схемы testnm**
 
@@ -132,7 +138,22 @@ cогласно заданию, создаю новый кластер PostgresS
   grant select on all tables in schema testnm to readonly;
 ```
 
-создайте пользователя testread с паролем test123
+  ![11_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/f1ddba5d-437f-431d-953c-e97fda4d6b44)
+
+<br/>
+
+>**12. создайте пользователя testread с паролем test123**
+
+выполняю командой и потом проверяю:
+
+```sql
+  CREATE USER testread PASSWORD 'test123';
+```
+
+  ![12_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/1578027f-08d9-46d5-9086-261cc818c0fe)
+
+
+
 дайте роль readonly пользователю testread
 зайдите под пользователем testread в базу данных testdb
 сделайте select * from t1;
