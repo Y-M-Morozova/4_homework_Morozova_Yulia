@@ -152,10 +152,30 @@ cогласно заданию, создаю новый кластер PostgresS
 
   ![12_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/1578027f-08d9-46d5-9086-261cc818c0fe)
 
+<br/>
+
+>**13. дайте роль readonly пользователю testread**
+
+выполняю командой и потом проверяю:
+
+```sql
+  grant readonly TO testread;
+```
+
+  ![13_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/b302c06b-3d5e-49a9-aef1-eef42d8a4768)
+
+<br/>
+
+>**14. зайдите под пользователем testread в базу данных testdb**
+
+открываю еще один терминал и там выполняю команду: ``psql -h 127.0.0.1 -p 5433 -U testread -d testdb``
+
+  ![14_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/8c746925-d206-4a51-b0c6-37941cd5fb14)
+
+<br/>
 
 
-дайте роль readonly пользователю testread
-зайдите под пользователем testread в базу данных testdb
+
 сделайте select * from t1;
 получилось? (могло если вы делали сами не по шпаргалке и не упустили один существенный момент про который позже)
 напишите что именно произошло в тексте домашнего задания
