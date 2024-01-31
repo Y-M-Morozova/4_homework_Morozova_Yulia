@@ -305,11 +305,13 @@ cогласно заданию, создаю новый кластер PostgresS
 
 >**31. сделайте select * from testnm.t1;**
 
+  ![31_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/963b592b-2ad6-4ef9-a0cc-e524d4f162f9)
 
 <br/>
 
 >**32. получилось?**
 
+Нет!!!! Все та же ошибка - нет прав на эту таблицу!
 
 <br/>
 
