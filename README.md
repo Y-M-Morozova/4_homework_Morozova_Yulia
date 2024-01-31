@@ -293,6 +293,13 @@ cогласно заданию, создаю новый кластер PostgresS
 
 >**30. как сделать так чтобы такое больше не повторялось? если нет идей - смотрите шпаргалку**
 
+Чтобы такое не повторялось определю привилегии доступа по умолчанию(для этого есть команда ``alter default privileges``) в моем случае в схеме ``testnm`` для селекта для роли ``readonly`` выполним От пользователя ``postgres`` команду:
+
+```sql
+  ALTER default privileges in SCHEMA testnm grant SELECT on TABLES to readonly; 
+```
+
+  ![30_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/3f44287f-6458-4ff6-aa2a-271477cb5525)
 
 <br/>
 
