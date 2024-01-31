@@ -265,6 +265,9 @@ cогласно заданию, создаю новый кластер PostgresS
 
 >**26. зайдите под пользователем testread в базу данных testdb**
 
+перехожу во второй терминал(мне так нагляднее) и там выполняю команду: ``psql -h 127.0.0.1 -p 5433 -U testread -d testdb``
+
+  ![26_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/d4ab8e64-4e96-4637-a157-270479f04b1c)
 
 <br/>
 
