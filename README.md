@@ -221,8 +221,25 @@ cогласно заданию, создаю новый кластер PostgresS
 
 <br/>
 
-вернитесь в базу данных testdb под пользователем postgres
-удалите таблицу t1
+>**22. вернитесь в базу данных testdb под пользователем postgres**
+
+  ![22_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/eb9c029e-75b2-4ccb-b941-eba30ecab63e)
+
+<br/>
+
+>**22. удалите таблицу t1**
+
+выполняю командой и потом проверяю:
+
+```sql
+  drop table t1;
+```
+
+  ![23_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/e671cb69-10ae-4acd-b389-aad34e8053d6)
+
+<br/>
+
+
 создайте ее заново но уже с явным указанием имени схемы testnm
 вставьте строку со значением c1=1
 зайдите под пользователем testread в базу данных testdb
