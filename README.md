@@ -330,14 +330,21 @@ cогласно заданию, создаю новый кластер PostgresS
 
 >**34. сделайте select * from testnm.t1;**
  
+Выполняю от пользователя ``testread``:
+
+![34_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/f90e9c28-ea78-4ad3-b5ef-ffec34defb9f)
 
 <br/>
 
 >**35. получилось?**
 
+ДА! Теперь все ок!
+
 <br/>
 
 >**36. ура!**
+
+ДА !!! 
 
 <br/>
 
