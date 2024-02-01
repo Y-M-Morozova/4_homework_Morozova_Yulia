@@ -352,7 +352,7 @@ cогласно заданию, создаю новый кластер PostgresS
 
 Выполняю от пользователя ``testread`` и все ок: таблица созадалась, строка вставилась:  
   
-  ![37_2](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/61f4b08b-ea1a-4328-bf5f-b059357d943c)
+  ![37_3](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/29263526-f925-47e8-8302-4456b7896517)
 
 <br/>
 
