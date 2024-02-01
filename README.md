@@ -354,7 +354,6 @@ cогласно заданию, создаю новый кластер PostgresS
   
   ![37_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/121cf8fb-cf59-480c-9980-1a313903289e)
 
-
 <br/>
 
 >**38. а как так? нам же никто прав на создание таблиц и insert в них под ролью readonly?**
