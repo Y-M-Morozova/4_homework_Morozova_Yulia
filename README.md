@@ -350,6 +350,10 @@ cогласно заданию, создаю новый кластер PostgresS
 
 >**37. теперь попробуйте выполнить команду create table t2(c1 integer); insert into t2 values (2);**
 
+Выполняю от пользователя ``testread`` и все ок: таблица созадалась, строка вставилась:  
+  
+  ![37_1](https://github.com/Y-M-Morozova/4_homework_Morozova_Yulia/assets/153178571/121cf8fb-cf59-480c-9980-1a313903289e)
+
 
 <br/>
 
